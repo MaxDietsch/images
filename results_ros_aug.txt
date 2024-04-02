@@ -1,6 +1,6 @@
 
 
-Model: Swin Transformer and Method: ros25 with schedule: lr_0.01 
+Model: Swin Transformer and Method: ros25_aug with schedule: lr_0.01 
 Accuracy: 
  mean: 	 81.3864974975586 
  std: 	 2.359299898147583 
@@ -19,7 +19,7 @@ Classwise F1-Score:
 
 
 
-Model: Swin Transformer and Method: ros25 with schedule: lr_0.001 
+Model: Swin Transformer and Method: ros25_aug with schedule: lr_0.001 
 Accuracy: 
  mean: 	 81.94969940185547 
  std: 	 1.1187000274658203 
@@ -38,7 +38,7 @@ Classwise F1-Score:
 
 
 
-Model: Swin Transformer and Method: ros25 with schedule: lr_decr 
+Model: Swin Transformer and Method: ros25_aug with schedule: lr_decr 
 Accuracy: 
  mean: 	 81.73310089111328 
  std: 	 0.9768000245094299 
@@ -57,7 +57,7 @@ Classwise F1-Score:
 
 
 
-Model: Swin Transformer and Method: ros50 with schedule: lr_0.01 
+Model: Swin Transformer and Method: ros50_aug with schedule: lr_0.01 
 Accuracy: 
  mean: 	 81.26080322265625 
  std: 	 1.9850000143051147 
@@ -76,7 +76,7 @@ Classwise F1-Score:
 
 
 
-Model: Swin Transformer and Method: ros50 with schedule: lr_0.001 
+Model: Swin Transformer and Method: ros50_aug with schedule: lr_0.001 
 Accuracy: 
  mean: 	 82.77729797363281 
  std: 	 1.3105000257492065 
@@ -95,7 +95,7 @@ Classwise F1-Score:
 
 
 
-Model: Swin Transformer and Method: ros50 with schedule: lr_decr 
+Model: Swin Transformer and Method: ros50_aug with schedule: lr_decr 
 Accuracy: 
  mean: 	 81.29119873046875 
  std: 	 0.9000999927520752 
@@ -114,7 +114,7 @@ Classwise F1-Score:
 
 
 
-Model: Swin Transformer and Method: ros75 with schedule: lr_0.01 
+Model: Swin Transformer and Method: ros75_aug with schedule: lr_0.01 
 Accuracy: 
  mean: 	 81.26519775390625 
  std: 	 1.9598000049591064 
@@ -133,7 +133,7 @@ Classwise F1-Score:
 
 
 
-Model: Swin Transformer and Method: ros75 with schedule: lr_0.001 
+Model: Swin Transformer and Method: ros75_aug with schedule: lr_0.001 
 Accuracy: 
  mean: 	 82.99250030517578 
  std: 	 1.1914000511169434 
@@ -152,7 +152,7 @@ Classwise F1-Score:
 
 
 
-Model: Swin Transformer and Method: ros75 with schedule: lr_decr 
+Model: Swin Transformer and Method: ros75_aug with schedule: lr_decr 
 Accuracy: 
  mean: 	 82.02200317382812 
  std: 	 1.3157000541687012 
@@ -171,7 +171,7 @@ Classwise F1-Score:
 
 
 
-Model: Swin Transformer and Method: ros100 with schedule: lr_0.01 
+Model: Swin Transformer and Method: ros100_aug with schedule: lr_0.01 
 Accuracy: 
  mean: 	 81.56629943847656 
  std: 	 1.9903000593185425 
@@ -190,7 +190,7 @@ Classwise F1-Score:
 
 
 
-Model: Swin Transformer and Method: ros100 with schedule: lr_0.001 
+Model: Swin Transformer and Method: ros100_aug with schedule: lr_0.001 
 Accuracy: 
  mean: 	 83.43370056152344 
  std: 	 1.3079999685287476 
@@ -209,7 +209,7 @@ Classwise F1-Score:
 
 
 
-Model: Swin Transformer and Method: ros100 with schedule: lr_decr 
+Model: Swin Transformer and Method: ros100_aug with schedule: lr_decr 
 Accuracy: 
  mean: 	 82.14900207519531 
  std: 	 1.1965999603271484 
@@ -228,7 +228,7 @@ Classwise F1-Score:
 
 
 
-Model: EfficientNet B4 and Method: ros25 with schedule: lr_0.01 
+Model: EfficientNet B4 and Method: ros25_aug with schedule: lr_0.01 
 Accuracy: 
  mean: 	 83.7781982421875 
  std: 	 1.0595999956130981 
@@ -247,7 +247,7 @@ Classwise F1-Score:
 
 
 
-Model: EfficientNet B4 and Method: ros25 with schedule: lr_0.001 
+Model: EfficientNet B4 and Method: ros25_aug with schedule: lr_0.001 
 Accuracy: 
  mean: 	 82.74700164794922 
  std: 	 1.167199969291687 
@@ -266,7 +266,7 @@ Classwise F1-Score:
 
 
 
-Model: EfficientNet B4 and Method: ros25 with schedule: lr_decr 
+Model: EfficientNet B4 and Method: ros25_aug with schedule: lr_decr 
 Accuracy: 
  mean: 	 86.2218017578125 
  std: 	 0.3418000042438507 
@@ -285,7 +285,7 @@ Classwise F1-Score:
 
 
 
-Model: EfficientNet B4 and Method: ros50 with schedule: lr_0.01 
+Model: EfficientNet B4 and Method: ros50_aug with schedule: lr_0.01 
 Accuracy: 
  mean: 	 84.57969665527344 
  std: 	 1.3889000415802002 
@@ -304,7 +304,7 @@ Classwise F1-Score:
 
 
 
-Model: EfficientNet B4 and Method: ros50 with schedule: lr_0.001 
+Model: EfficientNet B4 and Method: ros50_aug with schedule: lr_0.001 
 Accuracy: 
  mean: 	 83.15859985351562 
  std: 	 1.7196999788284302 
@@ -323,7 +323,7 @@ Classwise F1-Score:
 
 
 
-Model: EfficientNet B4 and Method: ros50 with schedule: lr_decr 
+Model: EfficientNet B4 and Method: ros50_aug with schedule: lr_decr 
 Accuracy: 
  mean: 	 86.55549621582031 
  std: 	 0.4474000036716461 
@@ -342,7 +342,7 @@ Classwise F1-Score:
 
 
 
-Model: EfficientNet B4 and Method: ros75 with schedule: lr_0.01 
+Model: EfficientNet B4 and Method: ros75_aug with schedule: lr_0.01 
 Accuracy: 
  mean: 	 85.13289642333984 
  std: 	 1.5322999954223633 
@@ -361,7 +361,7 @@ Classwise F1-Score:
 
 
 
-Model: EfficientNet B4 and Method: ros75 with schedule: lr_0.001 
+Model: EfficientNet B4 and Method: ros75_aug with schedule: lr_0.001 
 Accuracy: 
  mean: 	 83.52400207519531 
  std: 	 1.5117000341415405 
@@ -380,7 +380,7 @@ Classwise F1-Score:
 
 
 
-Model: EfficientNet B4 and Method: ros75 with schedule: lr_decr 
+Model: EfficientNet B4 and Method: ros75_aug with schedule: lr_decr 
 Accuracy: 
  mean: 	 86.4905014038086 
  std: 	 0.41609999537467957 
@@ -399,7 +399,7 @@ Classwise F1-Score:
 
 
 
-Model: EfficientNet B4 and Method: ros100 with schedule: lr_0.01 
+Model: EfficientNet B4 and Method: ros100_aug with schedule: lr_0.01 
 Accuracy: 
  mean: 	 84.4583969116211 
  std: 	 2.2418999671936035 
@@ -418,7 +418,7 @@ Classwise F1-Score:
 
 
 
-Model: EfficientNet B4 and Method: ros100 with schedule: lr_0.001 
+Model: EfficientNet B4 and Method: ros100_aug with schedule: lr_0.001 
 Accuracy: 
  mean: 	 84.03160095214844 
  std: 	 1.5914000272750854 
@@ -437,7 +437,7 @@ Classwise F1-Score:
 
 
 
-Model: EfficientNet B4 and Method: ros100 with schedule: lr_decr 
+Model: EfficientNet B4 and Method: ros100_aug with schedule: lr_decr 
 Accuracy: 
  mean: 	 86.36699676513672 
  std: 	 0.4327999949455261 
