@@ -1,0 +1,228 @@
+
+
+Model: Swin and Method: ros25 with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 81.39949798583984 
+ std: 	 1.8047000169754028 
+
+Classwise Recall: 
+ mean: 	 [91.1352  8.9286 13.7179 45.2597] 
+ std: 	 [3.103  8.6323 8.247  9.1689] 
+
+Classwise Precision: 
+ mean: 	 [89.2378  8.4117 17.1607 52.1565] 
+ std: 	 [1.4267 6.8963 6.0708 6.2633] 
+
+Classwise F1-Score: 
+ mean: 	 [90.1259  7.4978 14.2784 47.3013] 
+ std: 	 [1.0186 5.3906 5.1848 4.5334] 
+
+
+
+Model: Swin and Method: ros25 with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 83.16290283203125 
+ std: 	 1.5734000205993652 
+
+Classwise Recall: 
+ mean: 	 [91.7582  5.3571 17.0513 54.1234] 
+ std: 	 [2.2742 7.6423 6.2407 4.9241] 
+
+Classwise Precision: 
+ mean: 	 [90.202   6.5897 31.7058 52.6781] 
+ std: 	 [0.8616 8.438  9.4366 3.415 ] 
+
+Classwise F1-Score: 
+ mean: 	 [90.952   5.4502 21.0328 53.1665] 
+ std: 	 [0.9382 6.9873 5.5284 2.3917] 
+
+
+
+Model: Swin and Method: ros25 with schedule: lr_decr 
+Accuracy: 
+ mean: 	 82.02339935302734 
+ std: 	 0.7979000210762024 
+
+Classwise Recall: 
+ mean: 	 [91.7318 12.8571 12.8205 46.1364] 
+ std: 	 [ 1.3803 13.2318  8.9599  5.6784] 
+
+Classwise Precision: 
+ mean: 	 [88.9585  8.8907 18.594  51.5128] 
+ std: 	 [0.4279 8.7057 7.6218 4.5095] 
+
+Classwise F1-Score: 
+ mean: 	 [90.3159  9.9106 14.5276 48.2238] 
+ std: 	 [0.5054 9.5394 8.3744 2.4273] 
+
+
+
+Model: Swin and Method: ros50 with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 81.13520050048828 
+ std: 	 1.6365000009536743 
+
+Classwise Recall: 
+ mean: 	 [90.6441  5.9524 12.5641 46.8615] 
+ std: 	 [2.8421 8.1944 7.6287 8.1855] 
+
+Classwise Precision: 
+ mean: 	 [89.1612  5.6078 16.482  49.9678] 
+ std: 	 [1.2655 6.8866 5.3744 6.1988] 
+
+Classwise F1-Score: 
+ mean: 	 [89.8554  4.9985 13.3804 47.3639] 
+ std: 	 [0.9979 5.6535 5.1304 3.7443] 
+
+
+
+Model: Swin and Method: ros50 with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 83.60199737548828 
+ std: 	 1.6395000219345093 
+
+Classwise Recall: 
+ mean: 	 [92.5554  3.5714 13.4188 53.5931] 
+ std: 	 [2.4778 6.698  7.4584 4.527 ] 
+
+Classwise Precision: 
+ mean: 	 [89.9566  4.3931 29.3383 53.8433] 
+ std: 	 [0.8432 7.5254 9.6992 4.329 ] 
+
+Classwise F1-Score: 
+ mean: 	 [91.2122  3.6335 17.2354 53.4644] 
+ std: 	 [0.983  6.2302 7.4063 2.4965] 
+
+
+
+Model: Swin and Method: ros50 with schedule: lr_decr 
+Accuracy: 
+ mean: 	 81.79949951171875 
+ std: 	 0.7487000226974487 
+
+Classwise Recall: 
+ mean: 	 [91.7177  8.5714  9.8291 45.6926] 
+ std: 	 [ 1.1493 12.3576  8.4931  4.715 ] 
+
+Classwise Precision: 
+ mean: 	 [88.6752  5.9271 14.9924 50.226 ] 
+ std: 	 [0.5466 8.2357 8.277  4.2155] 
+
+Classwise F1-Score: 
+ mean: 	 [90.1648  6.607  11.3933 47.5347] 
+ std: 	 [0.4759 9.0664 8.2439 2.2902] 
+
+
+
+Model: Swin and Method: ros75 with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 81.31500244140625 
+ std: 	 1.6124000549316406 
+
+Classwise Recall: 
+ mean: 	 [90.7181  5.5357 11.2179 48.1331] 
+ std: 	 [2.7591 7.498  7.2218 8.0356] 
+
+Classwise Precision: 
+ mean: 	 [89.1309  7.4618 16.3325 49.8631] 
+ std: 	 [ 1.144  10.6346  6.641   5.6322] 
+
+Classwise F1-Score: 
+ mean: 	 [89.8803  5.2737 12.4237 48.1028] 
+ std: 	 [1.0046 5.9397 5.2777 3.6191] 
+
+
+
+Model: Swin and Method: ros75 with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 83.92109680175781 
+ std: 	 1.559000015258789 
+
+Classwise Recall: 
+ mean: 	 [93.1468  2.6786 12.5    52.6623] 
+ std: 	 [2.4867 5.9843 6.7762 5.0893] 
+
+Classwise Precision: 
+ mean: 	 [89.6818  3.2949 34.5226 54.9125] 
+ std: 	 [ 0.9514  6.7692 14.6515  4.6798] 
+
+Classwise F1-Score: 
+ mean: 	 [91.3534  2.7251 16.9007 53.4223] 
+ std: 	 [0.9108 5.6037 6.6576 2.5264] 
+
+
+
+Model: Swin and Method: ros75 with schedule: lr_decr 
+Accuracy: 
+ mean: 	 82.0342025756836 
+ std: 	 0.7907000184059143 
+
+Classwise Recall: 
+ mean: 	 [92.0248  6.4286  9.1026 45.9416] 
+ std: 	 [ 1.1964 11.2996  7.5697  4.2663] 
+
+Classwise Precision: 
+ mean: 	 [88.6941  4.4453 16.7268 49.6577] 
+ std: 	 [0.4955 7.5625 8.4285 3.8521] 
+
+Classwise F1-Score: 
+ mean: 	 [90.3228  4.9553 11.1607 47.4597] 
+ std: 	 [0.5124 8.3377 7.3961 2.0153] 
+
+
+
+Model: Swin and Method: ros100 with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 81.1541976928711 
+ std: 	 1.8710999488830566 
+
+Classwise Recall: 
+ mean: 	 [90.3464  5.1429 12.8205 48.8442] 
+ std: 	 [3.0601 7.0755 8.5121 8.0082] 
+
+Classwise Precision: 
+ mean: 	 [89.2309  7.1468 17.4427 49.6075] 
+ std: 	 [ 1.1548 10.2319  6.8709  5.3066] 
+
+Classwise F1-Score: 
+ mean: 	 [89.7406  5.0408 13.6041 48.4051] 
+ std: 	 [1.1512 5.8323 5.4926 3.4871] 
+
+
+
+Model: Swin and Method: ros100 with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 84.14559936523438 
+ std: 	 1.4854999780654907 
+
+Classwise Recall: 
+ mean: 	 [93.5269  3.2857 12.5128 51.948 ] 
+ std: 	 [2.3878 5.8101 6.1652 5.1231] 
+
+Classwise Precision: 
+ mean: 	 [89.5841  7.9692 37.1195 55.6331] 
+ std: 	 [ 0.9377 14.3974 15.3716  4.8469] 
+
+Classwise F1-Score: 
+ mean: 	 [91.4868  4.0007 17.3859 53.3652] 
+ std: 	 [0.8655 6.3359 6.194  2.5062] 
+
+
+
+Model: Swin and Method: ros100 with schedule: lr_decr 
+Accuracy: 
+ mean: 	 82.07969665527344 
+ std: 	 0.724399983882904 
+
+Classwise Recall: 
+ mean: 	 [91.9366  5.1429  8.9744 46.974 ] 
+ std: 	 [ 1.1029 10.4102  6.7988  4.45  ] 
+
+Classwise Precision: 
+ mean: 	 [88.7592  3.5563 18.4932 49.4492] 
+ std: 	 [0.4817 6.9818 8.6075 3.5005] 
+
+Classwise F1-Score: 
+ mean: 	 [90.3147  3.9642 11.4565 47.9267] 
+ std: 	 [0.4633 7.7032 6.7008 2.0911] 
+
