@@ -1,114 +1,57 @@
 
 
-Algorithm: Two-Phase with Model: efficientnet_b4 with schedule: lr_0.001 
-Accuracy: 
- mean: 	 82.02770233154297 
- std: 	 0.18809999525547028 
-
-Classwise Recall: 
- mean: 	 [91.6579  0.     31.5    88.1707] 
- std: 	 [0.     0.     6.6875 3.2034] 
-
-Classwise Precision: 
- mean: 	 [89.2086  0.     19.1339 50.0852] 
- std: 	 [0.     0.     2.8137 1.1173] 
-
-Classwise F1-Score: 
- mean: 	 [90.4167  0.     23.6458 63.8619] 
- std: 	 [0.     0.     3.7002 1.3443] 
-
-
-
 Algorithm: Two-Phase with Model: efficientnet_b4 with schedule: lr_0.01 
 Accuracy: 
- mean: 	 82.37439727783203 
- std: 	 0.14839999377727509 
+ mean: 	 84.49739837646484 
+ std: 	 0.2842999994754791 
 
 Classwise Recall: 
- mean: 	 [91.6579  0.     26.     94.3902] 
- std: 	 [0.     0.     5.164  1.9239] 
+ mean: 	 [93.7698  0.     34.5833 91.6279] 
+ std: 	 [0.     0.     4.414  3.8682] 
 
 Classwise Precision: 
- mean: 	 [89.2086  0.     22.4582 49.5351] 
- std: 	 [0.     0.     5.8187 0.7552] 
+ mean: 	 [90.1523  0.     33.1181 56.4604] 
+ std: 	 [0.     0.     7.5508 1.0957] 
 
 Classwise F1-Score: 
- mean: 	 [90.4167  0.     23.8505 64.9618] 
- std: 	 [0.     0.     4.7273 0.6669] 
+ mean: 	 [91.9255  0.     33.4581 69.8394] 
+ std: 	 [0.     0.     4.7469 1.5064] 
+
+
+
+Algorithm: Two-Phase with Model: efficientnet_b4 with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 83.97750091552734 
+ std: 	 0.13210000097751617 
+
+Classwise Recall: 
+ mean: 	 [93.7698  0.     31.25   85.5814] 
+ std: 	 [0.     0.     5.2887 2.6965] 
+
+Classwise Precision: 
+ mean: 	 [90.1523  0.     22.4984 56.6466] 
+ std: 	 [0.     0.     2.2474 1.064 ] 
+
+Classwise F1-Score: 
+ mean: 	 [91.9255  0.     25.9843 68.1432] 
+ std: 	 [0.     0.     2.7019 0.8422] 
 
 
 
 Algorithm: Two-Phase with Model: efficientnet_b4 with schedule: lr_decr 
 Accuracy: 
- mean: 	 82.18370056152344 
- std: 	 0.15389999747276306 
+ mean: 	 84.09880065917969 
+ std: 	 0.13699999451637268 
 
 Classwise Recall: 
- mean: 	 [91.6579  0.     18.     93.6585] 
- std: 	 [0.     0.     7.5277 1.3845] 
+ mean: 	 [93.7698  0.     29.5833 87.6744] 
+ std: 	 [0.     0.     7.7205 1.25  ] 
 
 Classwise Precision: 
- mean: 	 [89.2086  0.     14.7709 49.1253] 
- std: 	 [0.    0.    4.297 0.995] 
+ mean: 	 [90.1523  0.     26.0435 54.1076] 
+ std: 	 [0.     0.     4.8221 0.8058] 
 
 Classwise F1-Score: 
- mean: 	 [90.4167  0.     16.1033 64.4374] 
- std: 	 [0.     0.     5.4288 0.8477] 
-
-
-
-Algorithm: Two-Phase with Model: swin with schedule: lr_decr 
-Accuracy: 
- mean: 	 82.10569763183594 
- std: 	 0.10999999940395355 
-
-Classwise Recall: 
- mean: 	 [91.6579  0.      6.5    95.3658] 
- std: 	 [0.     0.     2.4152 1.6056] 
-
-Classwise Precision: 
- mean: 	 [89.2086  0.     12.1865 45.9454] 
- std: 	 [0.     0.     3.7213 0.4346] 
-
-Classwise F1-Score: 
- mean: 	 [90.4167  0.      8.408  62.0117] 
- std: 	 [0.     0.     2.824  0.6704] 
-
-
-
-Algorithm: Two-Phase with Model: swin with schedule: lr_0.01 
-Accuracy: 
- mean: 	 82.23570251464844 
- std: 	 0.10010000318288803 
-
-Classwise Recall: 
- mean: 	 [91.6579  0.      5.5    97.439 ] 
- std: 	 [0.     0.     1.5811 1.46  ] 
-
-Classwise Precision: 
- mean: 	 [89.2086  0.     10.8358 47.2568] 
- std: 	 [0.     0.     3.0718 0.6475] 
-
-Classwise F1-Score: 
- mean: 	 [90.4167  0.      7.1903 63.6416] 
- std: 	 [0.     0.     1.823  0.6976] 
-
-
-
-Algorithm: Two-Phase with Model: swin with schedule: lr_0.001 
-Accuracy: 
- mean: 	 82.26170349121094 
- std: 	 0.05849999934434891 
-
-Classwise Recall: 
- mean: 	 [91.6579  0.      8.5    97.0732] 
- std: 	 [0.     0.     2.4152 1.1782] 
-
-Classwise Precision: 
- mean: 	 [89.2086  0.     14.8883 47.2616] 
- std: 	 [0.     0.     3.973  0.8698] 
-
-Classwise F1-Score: 
- mean: 	 [90.4167  0.     10.3389 63.5621] 
- std: 	 [0.     0.     1.9007 0.6436] 
+ mean: 	 [91.9255  0.     27.5576 66.9069] 
+ std: 	 [0.     0.     5.7339 0.4128] 
 
