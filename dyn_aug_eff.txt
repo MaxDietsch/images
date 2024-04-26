@@ -1,0 +1,57 @@
+
+
+Algorithm: Dynamic Sampling with Model: efficientnet_b4 with schedule: lr_decr 
+Accuracy: 
+ mean: 	 84.78720092773438 
+ std: 	 0.8902000188827515 
+
+Classwise Recall: 
+ mean: 	 [94.286  10.3175 29.9145 47.0418] 
+ std: 	 [ 0.9728  3.7646 10.9539  5.8721] 
+
+Classwise Precision: 
+ mean: 	 [90.3713 22.2046 26.3976 64.9365] 
+ std: 	 [0.6002 9.0098 4.7344 3.8827] 
+
+Classwise F1-Score: 
+ mean: 	 [92.2818 13.7422 26.597  54.2812] 
+ std: 	 [0.274  4.7323 4.7185 3.758 ] 
+
+
+
+Algorithm: Dynamic Sampling with Model: efficientnet_b4 with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 85.0780029296875 
+ std: 	 0.5986999869346619 
+
+Classwise Recall: 
+ mean: 	 [94.2028 15.     26.1538 50.2597] 
+ std: 	 [0.5014 4.0546 7.8148 7.1343] 
+
+Classwise Precision: 
+ mean: 	 [90.1712 31.246  28.9656 64.7099] 
+ std: 	 [0.5752 6.3563 4.8043 3.8561] 
+
+Classwise F1-Score: 
+ mean: 	 [92.1404 19.9105 26.4139 56.0983] 
+ std: 	 [0.1891 4.474  2.822  4.5792] 
+
+
+
+Algorithm: Dynamic Sampling with Model: efficientnet_b4 with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 84.96530151367188 
+ std: 	 0.7195000052452087 
+
+Classwise Recall: 
+ mean: 	 [95.0264  9.2857 23.8462 45.4545] 
+ std: 	 [0.7441 4.8211 7.2574 6.5795] 
+
+Classwise Precision: 
+ mean: 	 [89.7728 31.7143 26.5316 64.9154] 
+ std: 	 [ 0.5913 14.5603  6.5846  3.5836] 
+
+Classwise F1-Score: 
+ mean: 	 [92.3208 13.9691 23.7634 53.0301] 
+ std: 	 [0.156  6.6131 2.4351 4.1297] 
+
