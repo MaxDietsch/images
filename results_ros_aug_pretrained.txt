@@ -1,0 +1,456 @@
+
+
+Model: Swin Transformer and Method: ros25_aug_pretrained with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 84.15080261230469 
+ std: 	 1.4242000579833984 
+
+Classwise Recall: 
+ mean: 	 [92.3337 15.7143 28.4615 54.1558] 
+ std: 	 [ 2.354  13.3843  7.8753  6.8049] 
+
+Classwise Precision: 
+ mean: 	 [90.9072 24.7647 27.8674 59.7078] 
+ std: 	 [ 1.0983 14.7642  6.1006  4.4734] 
+
+Classwise F1-Score: 
+ mean: 	 [91.5881 17.1426 27.1722 56.3937] 
+ std: 	 [ 0.812  11.1335  4.5041  3.3862] 
+
+
+
+Model: Swin Transformer and Method: ros25_aug_pretrained with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 81.9583969116211 
+ std: 	 1.1617000102996826 
+
+Classwise Recall: 
+ mean: 	 [89.9578  9.2857 14.8718 56.3636] 
+ std: 	 [2.5983 4.8211 5.2409 8.0803] 
+
+Classwise Precision: 
+ mean: 	 [90.9198 16.14   27.9316 47.6609] 
+ std: 	 [ 1.312   8.9526 11.1884  4.2367] 
+
+Classwise F1-Score: 
+ mean: 	 [90.399  11.0841 18.3948 51.0414] 
+ std: 	 [0.6966 5.0682 4.0443 1.8943] 
+
+
+
+Model: Swin Transformer and Method: ros25_aug_pretrained with schedule: lr_decr 
+Accuracy: 
+ mean: 	 85.31199645996094 
+ std: 	 0.4855000078678131 
+
+Classwise Recall: 
+ mean: 	 [92.9673 12.8571 22.8205 60.6494] 
+ std: 	 [1.1088 5.6344 4.5948 3.8985] 
+
+Classwise Precision: 
+ mean: 	 [91.3739 24.3929 34.8921 59.4658] 
+ std: 	 [0.5546 6.814  2.9444 2.6009] 
+
+Classwise F1-Score: 
+ mean: 	 [92.1574 16.6319 27.3862 59.9033] 
+ std: 	 [0.3359 6.3218 3.8243 0.929 ] 
+
+
+
+Model: Swin Transformer and Method: ros50_aug_pretrained with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 83.73049926757812 
+ std: 	 1.2309000492095947 
+
+Classwise Recall: 
+ mean: 	 [91.8374 15.     22.9487 55.5195] 
+ std: 	 [ 2.3168 11.794   8.1287  7.5741] 
+
+Classwise Precision: 
+ mean: 	 [90.8258 21.7316 26.7951 57.327 ] 
+ std: 	 [ 1.1806 12.9038  6.01    5.6109] 
+
+Classwise F1-Score: 
+ mean: 	 [91.2995 16.2789 23.7606 55.7484] 
+ std: 	 [ 0.7498 10.3105  5.0697  2.9035] 
+
+
+
+Model: Swin Transformer and Method: ros50_aug_pretrained with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 82.54769897460938 
+ std: 	 1.214900016784668 
+
+Classwise Recall: 
+ mean: 	 [90.1954  8.9286 16.1538 59.026 ] 
+ std: 	 [2.1278 5.1168 8.1552 7.5636] 
+
+Classwise Precision: 
+ mean: 	 [91.3338 14.3769 26.5041 49.9193] 
+ std: 	 [1.1426 8.4522 8.6163 4.2668] 
+
+Classwise F1-Score: 
+ mean: 	 [90.7355 10.5233 18.5884 53.6726] 
+ std: 	 [0.7132 5.588  5.0474 3.484 ] 
+
+
+
+Model: Swin Transformer and Method: ros50_aug_pretrained with schedule: lr_decr 
+Accuracy: 
+ mean: 	 85.03900146484375 
+ std: 	 0.5246999859809875 
+
+Classwise Recall: 
+ mean: 	 [92.8089  9.6429 21.4103 60.2273] 
+ std: 	 [0.9726 5.3226 4.3447 3.2081] 
+
+Classwise Precision: 
+ mean: 	 [91.335  19.7718 31.572  58.784 ] 
+ std: 	 [0.4813 8.1396 4.4973 2.1306] 
+
+Classwise F1-Score: 
+ mean: 	 [92.061  12.7699 25.2405 59.3977] 
+ std: 	 [0.3032 6.289  3.9139 0.992 ] 
+
+
+
+Model: Swin Transformer and Method: ros75_aug_pretrained with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 83.29869842529297 
+ std: 	 1.3069000244140625 
+
+Classwise Recall: 
+ mean: 	 [91.5488 15.9524 22.2222 54.1558] 
+ std: 	 [ 2.0712 10.3906  8.3382  6.728 ] 
+
+Classwise Precision: 
+ mean: 	 [90.5672 19.8446 26.2773 56.0889] 
+ std: 	 [ 1.0819 11.1752  5.4453  5.1763] 
+
+Classwise F1-Score: 
+ mean: 	 [91.0328 16.3642 23.0702 54.6313] 
+ std: 	 [0.7698 8.8702 5.1815 3.1141] 
+
+
+
+Model: Swin Transformer and Method: ros75_aug_pretrained with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 82.65740203857422 
+ std: 	 1.1311999559402466 
+
+Classwise Recall: 
+ mean: 	 [90.2781 13.5714 17.265  58.6364] 
+ std: 	 [2.0183 8.4619 7.3743 6.7292] 
+
+Classwise Precision: 
+ mean: 	 [91.224  14.5142 28.3206 51.6937] 
+ std: 	 [1.0843 7.4056 8.5984 4.8753] 
+
+Classwise F1-Score: 
+ mean: 	 [90.7254 12.7794 20.1653 54.5191] 
+ std: 	 [0.6877 5.9532 4.9413 3.1271] 
+
+
+
+Model: Swin Transformer and Method: ros75_aug_pretrained with schedule: lr_decr 
+Accuracy: 
+ mean: 	 85.052001953125 
+ std: 	 0.5407999753952026 
+
+Classwise Recall: 
+ mean: 	 [93.1221 10.9524 22.3932 58.0303] 
+ std: 	 [1.0112 5.5434 4.0365 4.1543] 
+
+Classwise Precision: 
+ mean: 	 [91.2866 22.1128 30.6629 58.8696] 
+ std: 	 [0.429  7.9763 4.1777 2.1799] 
+
+Classwise F1-Score: 
+ mean: 	 [92.1903 14.4158 25.5813 58.3263] 
+ std: 	 [0.3522 6.4295 3.3398 1.9003] 
+
+
+
+Model: Swin Transformer and Method: ros100_aug_pretrained with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 82.95490264892578 
+ std: 	 1.780900001525879 
+
+Classwise Recall: 
+ mean: 	 [90.7471 17.3214 22.5    56.3149] 
+ std: 	 [3.0896 9.9564 8.283  8.1157] 
+
+Classwise Precision: 
+ mean: 	 [90.9086 19.9405 25.4844 55.6442] 
+ std: 	 [ 1.2787 10.4023  5.3341  5.6317] 
+
+Classwise F1-Score: 
+ mean: 	 [90.7801 16.8822 22.9435 55.3151] 
+ std: 	 [1.1566 8.0134 5.1853 3.0796] 
+
+
+
+Model: Swin Transformer and Method: ros100_aug_pretrained with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 82.89430236816406 
+ std: 	 1.2069000005722046 
+
+Classwise Recall: 
+ mean: 	 [90.2402 13.75   17.6923 60.5195] 
+ std: 	 [2.0593 7.988  6.8655 7.3041] 
+
+Classwise Precision: 
+ mean: 	 [91.4048 16.8241 28.5295 52.3855] 
+ std: 	 [1.1227 9.1845 8.2268 5.0799] 
+
+Classwise F1-Score: 
+ mean: 	 [90.7942 13.7079 20.7548 55.7136] 
+ std: 	 [0.7002 6.0782 4.8997 3.4993] 
+
+
+
+Model: Swin Transformer and Method: ros100_aug_pretrained with schedule: lr_decr 
+Accuracy: 
+ mean: 	 84.80280303955078 
+ std: 	 0.6549000144004822 
+
+Classwise Recall: 
+ mean: 	 [93.094   8.2143 23.6538 56.2662] 
+ std: 	 [0.9208 6.7763 4.2861 4.8494] 
+
+Classwise Precision: 
+ mean: 	 [91.1196 16.5846 30.7001 57.8622] 
+ std: 	 [ 0.4843 11.8887  3.6946  2.6644] 
+
+Classwise F1-Score: 
+ mean: 	 [92.092  10.8119 26.4271 56.943 ] 
+ std: 	 [0.3642 8.4086 3.3371 2.9661] 
+
+
+
+Model: EfficientNet-B4 and Method: ros25_aug_pretrained with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 84.89600372314453 
+ std: 	 2.8757998943328857 
+
+Classwise Recall: 
+ mean: 	 [92.661  20.7143 26.9231 57.6623] 
+ std: 	 [ 4.448  12.7997 14.1607  5.6427] 
+
+Classwise Precision: 
+ mean: 	 [91.7166 35.9645 23.0824 67.0568] 
+ std: 	 [ 1.6394 30.264   5.8236  6.9717] 
+
+Classwise F1-Score: 
+ mean: 	 [92.0974 24.1995 22.5545 61.4966] 
+ std: 	 [ 1.5962 14.836   4.9723  1.8061] 
+
+
+
+Model: EfficientNet-B4 and Method: ros25_aug_pretrained with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 85.22530364990234 
+ std: 	 1.1038999557495117 
+
+Classwise Recall: 
+ mean: 	 [94.0549 15.7143 31.5385 50.8442] 
+ std: 	 [ 2.179   9.9887 12.5644  6.1834] 
+
+Classwise Precision: 
+ mean: 	 [90.7801 33.692  37.4482 61.0492] 
+ std: 	 [ 1.2857 12.567   5.9929  5.8687] 
+
+Classwise F1-Score: 
+ mean: 	 [92.3606 19.4252 32.681  55.0002] 
+ std: 	 [0.52   6.229  5.6517 2.9024] 
+
+
+
+Model: EfficientNet-B4 and Method: ros25_aug_pretrained with schedule: lr_decr 
+Accuracy: 
+ mean: 	 86.45580291748047 
+ std: 	 0.3165999948978424 
+
+Classwise Recall: 
+ mean: 	 [94.4668 28.5714 30.2564 56.6883] 
+ std: 	 [0.7268 3.3672 4.3245 2.9843] 
+
+Classwise Precision: 
+ mean: 	 [91.4963 48.1944 31.606  67.2507] 
+ std: 	 [0.4746 7.6368 2.2876 3.6771] 
+
+Classwise F1-Score: 
+ mean: 	 [92.9545 35.7161 30.823  61.3643] 
+ std: 	 [0.1682 3.7976 3.0829 0.6274] 
+
+
+
+Model: EfficientNet-B4 and Method: ros50_aug_pretrained with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 85.20359802246094 
+ std: 	 2.6737000942230225 
+
+Classwise Recall: 
+ mean: 	 [92.4921 20.3571 26.5385 61.1364] 
+ std: 	 [ 4.2039  9.6321 12.624   9.2128] 
+
+Classwise Precision: 
+ mean: 	 [92.4248 38.2114 24.0566 65.9322] 
+ std: 	 [ 1.7807 23.1855  6.5623  8.3218] 
+
+Classwise F1-Score: 
+ mean: 	 [92.3705 24.5689 23.2175 62.3968] 
+ std: 	 [ 1.4966 10.5489  4.8319  2.5315] 
+
+
+
+Model: EfficientNet-B4 and Method: ros50_aug_pretrained with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 85.69760131835938 
+ std: 	 1.00600004196167 
+
+Classwise Recall: 
+ mean: 	 [94.4667 10.7143 27.4359 53.3442] 
+ std: 	 [ 2.018   9.6946 11.5602  6.3248] 
+
+Classwise Precision: 
+ mean: 	 [90.9027 40.1793 34.7505 62.934 ] 
+ std: 	 [ 1.2578 36.2228  9.5063  5.7103] 
+
+Classwise F1-Score: 
+ mean: 	 [92.6248 14.7224 28.9119 57.299 ] 
+ std: 	 [ 0.5097 10.1224  6.6784  3.4547] 
+
+
+
+Model: EfficientNet-B4 and Method: ros50_aug_pretrained with schedule: lr_decr 
+Accuracy: 
+ mean: 	 87.04940032958984 
+ std: 	 0.6877999901771545 
+
+Classwise Recall: 
+ mean: 	 [95.0528 27.8571 30.8974 57.4351] 
+ std: 	 [0.8512 3.1944 4.4392 2.341 ] 
+
+Classwise Precision: 
+ mean: 	 [91.39   47.129  38.178  69.3014] 
+ std: 	 [0.3931 6.3625 7.5495 3.4024] 
+
+Classwise F1-Score: 
+ mean: 	 [93.1819 34.8795 33.7239 62.7268] 
+ std: 	 [0.2836 3.506  4.2875 1.609 ] 
+
+
+
+Model: EfficientNet-B4 and Method: ros75_aug_pretrained with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 85.7509994506836 
+ std: 	 2.382999897003174 
+
+Classwise Recall: 
+ mean: 	 [93.2172 22.1429 26.7521 60.5628] 
+ std: 	 [ 3.7158 10.1623 11.5396  8.7302] 
+
+Classwise Precision: 
+ mean: 	 [92.1279 41.4425 29.1115 66.4476] 
+ std: 	 [ 1.6695 20.6536 10.0294  7.3039] 
+
+Classwise F1-Score: 
+ mean: 	 [92.5975 26.8348 25.7294 62.4853] 
+ std: 	 [ 1.2898 10.0849  6.1815  2.8381] 
+
+
+
+Model: EfficientNet-B4 and Method: ros75_aug_pretrained with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 85.94740295410156 
+ std: 	 1.0148999691009521 
+
+Classwise Recall: 
+ mean: 	 [94.2485 13.8095 28.0342 56.1255] 
+ std: 	 [ 1.9755  9.5525 11.1448  7.4149] 
+
+Classwise Precision: 
+ mean: 	 [91.3179 49.3418 35.6015 62.7752] 
+ std: 	 [ 1.322  34.7024  8.495   5.2095] 
+
+Classwise F1-Score: 
+ mean: 	 [92.7338 19.7513 29.7737 58.7806] 
+ std: 	 [ 0.5283 11.4889  6.5925  3.7819] 
+
+
+
+Model: EfficientNet-B4 and Method: ros75_aug_pretrained with schedule: lr_decr 
+Accuracy: 
+ mean: 	 87.31659698486328 
+ std: 	 0.692300021648407 
+
+Classwise Recall: 
+ mean: 	 [95.5931 23.0952 29.5727 56.8831] 
+ std: 	 [1.1113 7.6618 4.35   3.1747] 
+
+Classwise Precision: 
+ mean: 	 [91.3162 56.3638 39.7195 69.7554] 
+ std: 	 [ 0.5502 19.4756  6.8413  3.2064] 
+
+Classwise F1-Score: 
+ mean: 	 [93.3998 30.6715 33.4396 62.5425] 
+ std: 	 [0.401  7.4224 3.7057 1.7023] 
+
+
+
+Model: EfficientNet-B4 and Method: ros100_aug_pretrained with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 85.81890106201172 
+ std: 	 2.147900104522705 
+
+Classwise Recall: 
+ mean: 	 [93.6061 21.0714 25.1923 59.1721] 
+ std: 	 [ 3.3849 10.351  10.9078  8.8256] 
+
+Classwise Precision: 
+ mean: 	 [91.8306 41.2258 28.9821 66.3749] 
+ std: 	 [ 1.6441 18.3617  9.4863  6.9082] 
+
+Classwise F1-Score: 
+ mean: 	 [92.6482 25.7841 25.0393 61.709 ] 
+ std: 	 [1.1801 9.6449 6.1947 3.3352] 
+
+
+
+Model: EfficientNet-B4 and Method: ros100_aug_pretrained with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 85.98999786376953 
+ std: 	 0.9277999997138977 
+
+Classwise Recall: 
+ mean: 	 [94.2212 14.2857 24.7436 57.4026] 
+ std: 	 [ 1.7946  8.405  11.9077  7.3742] 
+
+Classwise Precision: 
+ mean: 	 [91.375  51.3456 36.8952 61.8456] 
+ std: 	 [ 1.2327 32.818   8.3147  4.9912] 
+
+Classwise F1-Score: 
+ mean: 	 [92.7542 20.7237 27.4209 59.0584] 
+ std: 	 [ 0.4942 10.2356  7.9471  3.5005] 
+
+
+
+Model: EfficientNet-B4 and Method: ros100_aug_pretrained with schedule: lr_decr 
+Accuracy: 
+ mean: 	 87.47830200195312 
+ std: 	 0.6726999878883362 
+
+Classwise Recall: 
+ mean: 	 [95.8844 19.6429 26.5385 57.3864] 
+ std: 	 [1.1184 9.1144 7.1246 3.1562] 
+
+Classwise Precision: 
+ mean: 	 [91.2729 58.5228 38.2383 70.323 ] 
+ std: 	 [ 0.539  19.7045  6.5807  3.2978] 
+
+Classwise F1-Score: 
+ mean: 	 [93.5158 26.9975 30.6909 63.0834] 
+ std: 	 [0.4058 9.4231 6.3212 1.8333] 
+
