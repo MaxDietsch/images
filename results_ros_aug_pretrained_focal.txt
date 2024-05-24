@@ -682,3 +682,231 @@ Classwise F1-Score:
  mean: 	 [91.4 18.8 24.8 56.7] 
  std: 	 [ 0.4295 10.8515  6.3507  2.2342] 
 
+
+
+Model: Swin Transformer and Method: ros25_aug_pretrained_focal with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 83.19999694824219 
+ std: 	 2.030100107192993 
+
+Classwise Recall: 
+ mean: 	 [92.1  8.6 15.9 52.5] 
+ std: 	 [ 3.9548  6.5638  5.2409 13.1191] 
+
+Classwise Precision: 
+ mean: 	 [90.4 17.8 24.7 57.5] 
+ std: 	 [ 1.8793 15.1961 12.1261 11.168 ] 
+
+Classwise F1-Score: 
+ mean: 	 [91.1 10.5 17.7 52.6] 
+ std: 	 [1.2745 7.0057 3.6167 5.53  ] 
+
+
+
+Model: Swin Transformer and Method: ros25_aug_pretrained_focal with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 81.9000015258789 
+ std: 	 1.2899999618530273 
+
+Classwise Recall: 
+ mean: 	 [89.4 14.3 18.2 58.3] 
+ std: 	 [2.2446 5.8321 5.5981 5.7983] 
+
+Classwise Precision: 
+ mean: 	 [91.5 10.9 30.5 49.2] 
+ std: 	 [0.9386 3.3359 6.7268 2.8336] 
+
+Classwise F1-Score: 
+ mean: 	 [90.4 11.6 21.8 53.1] 
+ std: 	 [0.8089 3.2351 4.0802 1.6669] 
+
+
+
+Model: Swin Transformer and Method: ros25_aug_pretrained_focal with schedule: lr_decr 
+Accuracy: 
+ mean: 	 83.19999694824219 
+ std: 	 0.6949999928474426 
+
+Classwise Recall: 
+ mean: 	 [90.2 14.3  9.2 64.9] 
+ std: 	 [1.2042 0.     4.0452 2.9201] 
+
+Classwise Precision: 
+ mean: 	 [91.8 29.2 17.5 51.2] 
+ std: 	 [0.4424 4.9726 4.6722 1.808 ] 
+
+Classwise F1-Score: 
+ mean: 	 [91.  19.1 11.9 57.2] 
+ std: 	 [0.4875 0.9895 4.2786 1.1199] 
+
+
+
+Model: Swin Transformer and Method: ros50_aug_pretrained_focal with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 83.4000015258789 
+ std: 	 1.6963000297546387 
+
+Classwise Recall: 
+ mean: 	 [91.9 11.1 18.2 54.4] 
+ std: 	 [ 3.3434  7.1335  5.9352 10.6389] 
+
+Classwise Precision: 
+ mean: 	 [90.6 20.  26.5 56.8] 
+ std: 	 [ 1.5364 14.0679  9.6609  8.7152] 
+
+Classwise F1-Score: 
+ mean: 	 [91.2 13.3 20.3 54.1] 
+ std: 	 [1.0582 7.7861 4.3889 4.2727] 
+
+
+
+Model: Swin Transformer and Method: ros50_aug_pretrained_focal with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 81.5 
+ std: 	 1.3145999908447266 
+
+Classwise Recall: 
+ mean: 	 [88.3  8.6 23.5 61. ] 
+ std: 	 [2.5228 7.8929 8.9705 6.3255] 
+
+Classwise Precision: 
+ mean: 	 [91.8  6.6 31.3 48.1] 
+ std: 	 [0.9876 5.6152 5.9661 2.9792] 
+
+Classwise F1-Score: 
+ mean: 	 [90.   7.1 25.8 53.5] 
+ std: 	 [0.9246 5.95   6.7231 1.5692] 
+
+
+
+Model: Swin Transformer and Method: ros50_aug_pretrained_focal with schedule: lr_decr 
+Accuracy: 
+ mean: 	 83.9000015258789 
+ std: 	 0.8695999979972839 
+
+Classwise Recall: 
+ mean: 	 [91.1 10.7 14.  63.4] 
+ std: 	 [1.3208 3.6642 6.0834 3.2234] 
+
+Classwise Precision: 
+ mean: 	 [91.7 22.9 22.5 53.9] 
+ std: 	 [0.4332 8.2115 7.0434 3.0996] 
+
+Classwise F1-Score: 
+ mean: 	 [91.4 14.4 17.1 58.2] 
+ std: 	 [0.5603 4.8634 6.6331 1.5232] 
+
+
+
+Model: Swin Transformer and Method: ros75_aug_pretrained_focal with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 82.5 
+ std: 	 2.2239999771118164 
+
+Classwise Recall: 
+ mean: 	 [90.4 13.7 19.9 56.1] 
+ std: 	 [4.0085 9.0635 6.8995 9.5043] 
+
+Classwise Precision: 
+ mean: 	 [90.9 16.9 25.7 54.1] 
+ std: 	 [ 1.4438 11.9218  7.6888  7.8695] 
+
+Classwise F1-Score: 
+ mean: 	 [90.6 13.5 21.3 53.9] 
+ std: 	 [1.5148 7.2097 4.6762 3.5338] 
+
+
+
+Model: Swin Transformer and Method: ros75_aug_pretrained_focal with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 81.19999694824219 
+ std: 	 1.4947999715805054 
+
+Classwise Recall: 
+ mean: 	 [88.1 12.9 20.  60.5] 
+ std: 	 [2.5811 9.2658 9.4847 6.0469] 
+
+Classwise Precision: 
+ mean: 	 [91.7  9.1 28.  47.4] 
+ std: 	 [0.9793 6.2182 7.1582 3.0705] 
+
+Classwise F1-Score: 
+ mean: 	 [89.9 10.2 22.4 52.9] 
+ std: 	 [1.0216 6.7203 7.9933 1.7545] 
+
+
+
+Model: Swin Transformer and Method: ros75_aug_pretrained_focal with schedule: lr_decr 
+Accuracy: 
+ mean: 	 83.9000015258789 
+ std: 	 0.7853999733924866 
+
+Classwise Recall: 
+ mean: 	 [91.3  9.8 15.4 62.6] 
+ std: 	 [1.2521 3.5009 5.4705 3.3486] 
+
+Classwise Precision: 
+ mean: 	 [91.6 22.3 23.5 54.2] 
+ std: 	 [0.4633 7.7583 6.1979 2.7134] 
+
+Classwise F1-Score: 
+ mean: 	 [91.4 13.3 18.4 58. ] 
+ std: 	 [0.4967 4.435  5.7602 1.4562] 
+
+
+
+Model: Swin Transformer and Method: ros100_aug_pretrained_focal with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 81.9000015258789 
+ std: 	 2.423099994659424 
+
+Classwise Recall: 
+ mean: 	 [89.6 12.5 20.6 56.4] 
+ std: 	 [4.0181 9.4067 6.8269 8.9277] 
+
+Classwise Precision: 
+ mean: 	 [90.9 14.  24.6 53. ] 
+ std: 	 [ 1.3496 11.9362  7.3329  7.6462] 
+
+Classwise F1-Score: 
+ mean: 	 [90.2 11.6 21.3 53.5] 
+ std: 	 [1.6442 7.5917 4.4706 3.1929] 
+
+
+
+Model: Swin Transformer and Method: ros100_aug_pretrained_focal with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 81.30000305175781 
+ std: 	 1.4316999912261963 
+
+Classwise Recall: 
+ mean: 	 [88.2 11.6 17.7 61.4] 
+ std: 	 [2.4215 8.6637 9.305  5.6718] 
+
+Classwise Precision: 
+ mean: 	 [91.7  8.7 29.8 47.4] 
+ std: 	 [0.9044 5.8226 9.144  2.9012] 
+
+Classwise F1-Score: 
+ mean: 	 [89.9  9.4 20.8 53.2] 
+ std: 	 [0.9724 6.1669 7.6622 1.7509] 
+
+
+
+Model: Swin Transformer and Method: ros100_aug_pretrained_focal with schedule: lr_decr 
+Accuracy: 
+ mean: 	 83.69999694824219 
+ std: 	 0.75 
+
+Classwise Recall: 
+ mean: 	 [91.1 11.2 17.1 62.1] 
+ std: 	 [1.1784 4.2451 5.7935 3.1339] 
+
+Classwise Precision: 
+ mean: 	 [91.6 24.8 23.9 53.7] 
+ std: 	 [0.4314 8.3772 5.5339 2.5101] 
+
+Classwise F1-Score: 
+ mean: 	 [91.3 15.3 19.7 57.5] 
+ std: 	 [0.4779 5.4    5.6276 1.5248] 
+
