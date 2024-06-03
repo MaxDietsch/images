@@ -1,0 +1,228 @@
+
+
+Model: Swin Transformer and Method: ros25_aug_pretrained_cosen with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 81.80000305175781 
+ std: 	 1.725000023841858 
+
+Classwise Recall: 
+ mean: 	 [90.4 17.1 23.8 49.5] 
+ std: 	 [2.6908 9.6421 7.156  6.1435] 
+
+Classwise Precision: 
+ mean: 	 [90.1 13.2 24.  54.3] 
+ std: 	 [0.7486 3.6255 6.2329 3.9659] 
+
+Classwise F1-Score: 
+ mean: 	 [90.2 13.5 23.  51.4] 
+ std: 	 [1.1647 4.0095 3.2718 2.5407] 
+
+
+
+Model: Swin Transformer and Method: ros25_aug_pretrained_cosen with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 82.5999984741211 
+ std: 	 1.4205000400543213 
+
+Classwise Recall: 
+ mean: 	 [90.9  9.3 14.1 56. ] 
+ std: 	 [2.5962 4.8211 5.3033 5.8385] 
+
+Classwise Precision: 
+ mean: 	 [90.6  9.6 24.7 52.6] 
+ std: 	 [0.9704 4.6027 5.0998 5.7024] 
+
+Classwise F1-Score: 
+ mean: 	 [90.7  9.2 17.5 53.8] 
+ std: 	 [0.9062 4.1921 4.5883 1.8578] 
+
+
+
+Model: Swin Transformer and Method: ros25_aug_pretrained_cosen with schedule: lr_decr 
+Accuracy: 
+ mean: 	 83.4000015258789 
+ std: 	 0.6956999897956848 
+
+Classwise Recall: 
+ mean: 	 [91.4 10.  22.1 56.2] 
+ std: 	 [1.4324 9.6421 5.5654 3.6886] 
+
+Classwise Precision: 
+ mean: 	 [90.9  8.  24.7 57. ] 
+ std: 	 [0.6386 7.5222 2.2152 3.0657] 
+
+Classwise F1-Score: 
+ mean: 	 [91.2  8.8 22.9 56.4] 
+ std: 	 [0.4215 8.3018 3.726  1.0688] 
+
+
+
+Model: Swin Transformer and Method: ros50_aug_pretrained_cosen with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 82.19999694824219 
+ std: 	 1.6086000204086304 
+
+Classwise Recall: 
+ mean: 	 [90.3 12.9 23.1 53.8] 
+ std: 	 [2.6222 9.442  6.3356 7.7777] 
+
+Classwise Precision: 
+ mean: 	 [90.5 12.5 25.3 54.2] 
+ std: 	 [0.9838 7.7393 5.6759 4.6159] 
+
+Classwise F1-Score: 
+ mean: 	 [90.4 11.5 23.3 53.5] 
+ std: 	 [1.0609 6.2831 3.3    2.9662] 
+
+
+
+Model: Swin Transformer and Method: ros50_aug_pretrained_cosen with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 82.19999694824219 
+ std: 	 1.5599000453948975 
+
+Classwise Recall: 
+ mean: 	 [89.5 14.6 15.8 60. ] 
+ std: 	 [2.842  6.7465 6.2959 6.5493] 
+
+Classwise Precision: 
+ mean: 	 [91.5 16.1 27.1 50. ] 
+ std: 	 [1.2711 9.9574 7.3315 5.5018] 
+
+Classwise F1-Score: 
+ mean: 	 [90.5 14.6 18.9 54. ] 
+ std: 	 [0.9983 7.085  5.1457 1.9377] 
+
+
+
+Model: Swin Transformer and Method: ros50_aug_pretrained_cosen with schedule: lr_decr 
+Accuracy: 
+ mean: 	 83.0999984741211 
+ std: 	 0.8468999862670898 
+
+Classwise Recall: 
+ mean: 	 [90.7  8.6 23.6 58.1] 
+ std: 	 [1.5617 6.7961 4.6019 3.7182] 
+
+Classwise Precision: 
+ mean: 	 [91.3  8.6 25.5 54.9] 
+ std: 	 [0.657  5.3714 2.3957 3.4336] 
+
+Classwise F1-Score: 
+ mean: 	 [91.   8.4 24.3 56.3] 
+ std: 	 [0.5351 5.7535 3.1466 1.0394] 
+
+
+
+Model: Swin Transformer and Method: ros75_aug_pretrained_cosen with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 82.19999694824219 
+ std: 	 1.8654999732971191 
+
+Classwise Recall: 
+ mean: 	 [90.1 13.6 25.6 54.3] 
+ std: 	 [3.1911 9.0642 6.5798 7.853 ] 
+
+Classwise Precision: 
+ mean: 	 [90.7 14.8 26.5 53.6] 
+ std: 	 [1.0728 9.6109 5.2887 5.4293] 
+
+Classwise F1-Score: 
+ mean: 	 [90.3 13.  25.4 53.2] 
+ std: 	 [1.2807 7.194  4.2451 2.7139] 
+
+
+
+Model: Swin Transformer and Method: ros75_aug_pretrained_cosen with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 82.4000015258789 
+ std: 	 1.3657000064849854 
+
+Classwise Recall: 
+ mean: 	 [89.6 15.7 16.7 60.5] 
+ std: 	 [2.424  6.3335 7.1501 5.7712] 
+
+Classwise Precision: 
+ mean: 	 [91.5 17.5 26.4 50.7] 
+ std: 	 [1.0609 9.3721 6.5601 4.8493] 
+
+Classwise F1-Score: 
+ mean: 	 [90.5 15.8 19.4 54.7] 
+ std: 	 [0.8764 6.5856 5.6916 2.0337] 
+
+
+
+Model: Swin Transformer and Method: ros75_aug_pretrained_cosen with schedule: lr_decr 
+Accuracy: 
+ mean: 	 83.5 
+ std: 	 0.9193999767303467 
+
+Classwise Recall: 
+ mean: 	 [91.2 11.7 22.8 57.9] 
+ std: 	 [1.5263 7.3811 4.0036 4.2669] 
+
+Classwise Precision: 
+ mean: 	 [91.4 21.5 24.3 55.8] 
+ std: 	 [ 0.7079 21.6487  3.2901  3.103 ] 
+
+Classwise F1-Score: 
+ mean: 	 [91.3 13.8 23.3 56.6] 
+ std: 	 [0.5999 9.401  3.0652 1.533 ] 
+
+
+
+Model: Swin Transformer and Method: ros100_aug_pretrained_cosen with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 82.19999694824219 
+ std: 	 1.7663999795913696 
+
+Classwise Recall: 
+ mean: 	 [89.7 15.2 24.  56.7] 
+ std: 	 [3.1155 9.5951 7.0293 8.7089] 
+
+Classwise Precision: 
+ mean: 	 [91.  15.6 25.7 53.4] 
+ std: 	 [1.1957 9.1831 5.3633 5.2587] 
+
+Classwise F1-Score: 
+ mean: 	 [90.3 14.2 24.1 54.3] 
+ std: 	 [1.1952 7.4255 4.7488 3.0377] 
+
+
+
+Model: Swin Transformer and Method: ros100_aug_pretrained_cosen with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 82.0 
+ std: 	 1.4996999502182007 
+
+Classwise Recall: 
+ mean: 	 [89.3 16.2 16.5 59.9] 
+ std: 	 [2.4965 6.2621 7.1811 6.0168] 
+
+Classwise Precision: 
+ mean: 	 [91.4 16.4 24.5 50.8] 
+ std: 	 [0.9945 8.6459 7.4371 4.79  ] 
+
+Classwise F1-Score: 
+ mean: 	 [90.3 15.4 18.8 54.5] 
+ std: 	 [1.0022 6.0281 6.0046 1.9079] 
+
+
+
+Model: Swin Transformer and Method: ros100_aug_pretrained_cosen with schedule: lr_decr 
+Accuracy: 
+ mean: 	 83.80000305175781 
+ std: 	 0.9912999868392944 
+
+Classwise Recall: 
+ mean: 	 [91.3 11.3 24.4 59. ] 
+ std: 	 [1.3901 6.8412 4.4973 4.2902] 
+
+Classwise Precision: 
+ mean: 	 [91.4 23.3 26.1 56.6] 
+ std: 	 [ 0.647  19.3265  4.4764  3.2056] 
+
+Classwise F1-Score: 
+ mean: 	 [91.4 13.9 25.1 57.6] 
+ std: 	 [0.5583 8.4109 4.124  2.2139] 
+
