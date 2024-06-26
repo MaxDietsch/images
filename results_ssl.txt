@@ -1,0 +1,114 @@
+
+
+Model: EfficientNet B4 and Method: pretrained_moco with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 81.5 
+ std: 	 0.7601000070571899 
+
+Classwise Recall: 
+ mean: 	 [91.7  2.7 11.1 43.6] 
+ std: 	 [1.1348 4.4224 4.9294 4.8062] 
+
+Classwise Precision: 
+ mean: 	 [89.2  2.7 14.3 47.5] 
+ std: 	 [0.7013 5.069  4.5308 3.2696] 
+
+Classwise F1-Score: 
+ mean: 	 [90.4  2.4 12.2 45.3] 
+ std: 	 [0.5431 3.7897 4.6527 3.4951] 
+
+
+
+Model: EfficientNet B4 and Method: pretrained_moco with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 81.0999984741211 
+ std: 	 1.4244999885559082 
+
+Classwise Recall: 
+ mean: 	 [91.   0.  11.3 45.6] 
+ std: 	 [2.0925 0.     5.2964 6.5781] 
+
+Classwise Precision: 
+ mean: 	 [88.6  0.  19.7 46.1] 
+ std: 	 [1.2999 0.     7.8242 4.9664] 
+
+Classwise F1-Score: 
+ mean: 	 [89.8  0.  13.7 45.4] 
+ std: 	 [0.8884 0.     5.3794 4.6521] 
+
+
+
+Model: EfficientNet B4 and Method: pretrained_moco with schedule: lr_decr 
+Accuracy: 
+ mean: 	 81.80000305175781 
+ std: 	 0.5339000225067139 
+
+Classwise Recall: 
+ mean: 	 [92.2  0.   6.2 44.9] 
+ std: 	 [0.5849 0.     1.7928 3.6018] 
+
+Classwise Precision: 
+ mean: 	 [89.3  0.  10.1 46.6] 
+ std: 	 [0.6313 0.     2.3266 1.7067] 
+
+Classwise F1-Score: 
+ mean: 	 [90.7  0.   7.6 45.7] 
+ std: 	 [0.3233 0.     1.9655 2.5278] 
+
+
+
+Model: EfficientNet B4 and Method: pretrained_simsiam with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 82.19999694824219 
+ std: 	 1.43149995803833 
+
+Classwise Recall: 
+ mean: 	 [93.6  1.6  6.8 38.2] 
+ std: 	 [ 3.4948  3.6743  6.6841 14.5091] 
+
+Classwise Precision: 
+ mean: 	 [88.   1.7  8.8 50.2] 
+ std: 	 [ 2.3302  4.1533  7.9191 15.5708] 
+
+Classwise F1-Score: 
+ mean: 	 [90.6  1.5  7.5 40.8] 
+ std: 	 [ 0.7752  3.1637  7.0573 12.7565] 
+
+
+
+Model: EfficientNet B4 and Method: pretrained_simsiam with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 82.4000015258789 
+ std: 	 1.63510000705719 
+
+Classwise Recall: 
+ mean: 	 [93.   0.   5.6 44. ] 
+ std: 	 [2.5986 0.     6.8399 5.7565] 
+
+Classwise Precision: 
+ mean: 	 [88.1  0.   9.8 48.9] 
+ std: 	 [ 1.1401  0.     11.4468  4.6187] 
+
+Classwise F1-Score: 
+ mean: 	 [90.5  0.   6.8 46. ] 
+ std: 	 [0.9532 0.     7.9257 3.5919] 
+
+
+
+Model: EfficientNet B4 and Method: pretrained_simsiam with schedule: lr_decr 
+Accuracy: 
+ mean: 	 83.5 
+ std: 	 1.8049999475479126 
+
+Classwise Recall: 
+ mean: 	 [94.   0.   3.1 46.9] 
+ std: 	 [2.0922 0.     3.3894 4.7954] 
+
+Classwise Precision: 
+ mean: 	 [88.9  0.   5.  52.7] 
+ std: 	 [0.7274 0.     5.4015 6.6795] 
+
+Classwise F1-Score: 
+ mean: 	 [91.4  0.   3.8 49.4] 
+ std: 	 [0.7801 0.     4.1255 4.5107] 
+
