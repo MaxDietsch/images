@@ -112,3 +112,117 @@ Classwise F1-Score:
  mean: 	 [91.4  0.   3.8 49.4] 
  std: 	 [0.7801 0.     4.1255 4.5107] 
 
+
+
+Model: Swin Transformer and Method: pretrained_moco with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 82.0999984741211 
+ std: 	 2.3343000411987305 
+
+Classwise Recall: 
+ mean: 	 [90.6  0.7 10.8 54.9] 
+ std: 	 [ 4.3918  2.2588  6.2574 10.4848] 
+
+Classwise Precision: 
+ mean: 	 [89.9  2.  17.2 51.4] 
+ std: 	 [1.3016 6.3246 5.8116 7.4979] 
+
+Classwise F1-Score: 
+ mean: 	 [90.2  1.1 12.9 51.8] 
+ std: 	 [1.6556 3.3287 6.2312 3.1436] 
+
+
+
+Model: Swin Transformer and Method: pretrained_moco with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 84.69999694824219 
+ std: 	 0.8826000094413757 
+
+Classwise Recall: 
+ mean: 	 [93.4  0.7 20.3 55.1] 
+ std: 	 [ 2.4912  2.2588 10.1454  8.469 ] 
+
+Classwise Precision: 
+ mean: 	 [90.5  2.  26.1 60.3] 
+ std: 	 [1.592  6.3246 5.4809 4.6666] 
+
+Classwise F1-Score: 
+ mean: 	 [91.9  1.1 21.5 56.9] 
+ std: 	 [0.469  3.3287 7.645  2.9162] 
+
+
+
+Model: Swin Transformer and Method: pretrained_moco with schedule: lr_decr 
+Accuracy: 
+ mean: 	 84.0999984741211 
+ std: 	 0.4512999951839447 
+
+Classwise Recall: 
+ mean: 	 [93.2  0.  17.2 52.7] 
+ std: 	 [0.9265 0.     4.3665 2.9273] 
+
+Classwise Precision: 
+ mean: 	 [89.6  0.  30.8 56.2] 
+ std: 	 [0.3618 0.     3.5303 2.4942] 
+
+Classwise F1-Score: 
+ mean: 	 [91.4  0.  21.9 54.2] 
+ std: 	 [0.3034 0.     4.294  0.7315] 
+
+
+
+Model: Swin Transformer and Method: pretrained_simsiam with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 81.69999694824219 
+ std: 	 1.8565000295639038 
+
+Classwise Recall: 
+ mean: 	 [93.9  0.4  5.4 33.7] 
+ std: 	 [ 5.3222  1.5972  7.0048 25.42  ] 
+
+Classwise Precision: 
+ mean: 	 [86.7  1.   8.6 39.6] 
+ std: 	 [ 3.5963  4.4721  9.6908 18.9421] 
+
+Classwise F1-Score: 
+ mean: 	 [90.   0.5  6.5 33.2] 
+ std: 	 [ 1.3022  2.3538  7.899  21.7044] 
+
+
+
+Model: Swin Transformer and Method: pretrained_simsiam with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 83.69999694824219 
+ std: 	 1.257599949836731 
+
+Classwise Recall: 
+ mean: 	 [94.9  0.4 10.1 41.1] 
+ std: 	 [ 2.8632  1.5972 12.5194 18.1832] 
+
+Classwise Precision: 
+ mean: 	 [88.   1.  13.1 55.3] 
+ std: 	 [ 3.0371  4.4721 13.9309  6.7922] 
+
+Classwise F1-Score: 
+ mean: 	 [91.2  0.5 10.8 45. ] 
+ std: 	 [ 0.7888  2.3538 12.2357 14.3   ] 
+
+
+
+Model: Swin Transformer and Method: pretrained_simsiam with schedule: lr_decr 
+Accuracy: 
+ mean: 	 83.69999694824219 
+ std: 	 0.6281999945640564 
+
+Classwise Recall: 
+ mean: 	 [94.5  0.   8.6 43.9] 
+ std: 	 [ 1.6567  0.      9.3112 10.2682] 
+
+Classwise Precision: 
+ mean: 	 [88.2  0.  15.4 52.9] 
+ std: 	 [ 1.5617  0.     15.9712  4.0891] 
+
+Classwise F1-Score: 
+ mean: 	 [91.2  0.  10.9 47.4] 
+ std: 	 [ 0.3321  0.     11.6142  7.651 ] 
+
