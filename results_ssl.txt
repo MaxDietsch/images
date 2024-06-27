@@ -1,228 +1,57 @@
 
 
-Model: EfficientNet B4 and Method: pretrained_moco with schedule: lr_0.01 
+Model: Swin Transformer and Method: pretrained_relative_loc with schedule: lr_0.01 
 Accuracy: 
- mean: 	 81.5 
- std: 	 0.7601000070571899 
+ mean: 	 84.5999984741211 
+ std: 	 1.0078999996185303 
 
 Classwise Recall: 
- mean: 	 [91.7  2.7 11.1 43.6] 
- std: 	 [1.1348 4.4224 4.9294 4.8062] 
+ mean: 	 [94.5  0.   2.3 51.8] 
+ std: 	 [2.1956 0.     2.2451 7.0657] 
 
 Classwise Precision: 
- mean: 	 [89.2  2.7 14.3 47.5] 
- std: 	 [0.7013 5.069  4.5308 3.2696] 
+ mean: 	 [89.4  0.  17.1 54.9] 
+ std: 	 [ 0.9847  0.     20.1942  4.9127] 
 
 Classwise F1-Score: 
- mean: 	 [90.4  2.4 12.2 45.3] 
- std: 	 [0.5431 3.7897 4.6527 3.4951] 
+ mean: 	 [91.9  0.   3.9 52.8] 
+ std: 	 [0.6454 0.     3.7291 2.2207] 
 
 
 
-Model: EfficientNet B4 and Method: pretrained_moco with schedule: lr_0.001 
+Model: Swin Transformer and Method: pretrained_relative_loc with schedule: lr_0.001 
 Accuracy: 
- mean: 	 81.0999984741211 
- std: 	 1.4244999885559082 
+ mean: 	 82.9000015258789 
+ std: 	 1.7977999448776245 
 
 Classwise Recall: 
- mean: 	 [91.   0.  11.3 45.6] 
- std: 	 [2.0925 0.     5.2964 6.5781] 
+ mean: 	 [91.2  0.   9.7 57.9] 
+ std: 	 [ 3.8255  0.      4.3245 10.5498] 
 
 Classwise Precision: 
- mean: 	 [88.6  0.  19.7 46.1] 
- std: 	 [1.2999 0.     7.8242 4.9664] 
+ mean: 	 [90.3  0.  28.1 51.7] 
+ std: 	 [ 1.4583  0.     12.9758  7.052 ] 
 
 Classwise F1-Score: 
- mean: 	 [89.8  0.  13.7 45.4] 
- std: 	 [0.8884 0.     5.3794 4.6521] 
+ mean: 	 [90.7  0.  13.3 53.4] 
+ std: 	 [1.1905 0.     4.6391 2.5009] 
 
 
 
-Model: EfficientNet B4 and Method: pretrained_moco with schedule: lr_decr 
+Model: Swin Transformer and Method: pretrained_relative_loc with schedule: lr_decr 
 Accuracy: 
- mean: 	 81.80000305175781 
- std: 	 0.5339000225067139 
+ mean: 	 85.0 
+ std: 	 0.6225000023841858 
 
 Classwise Recall: 
- mean: 	 [92.2  0.   6.2 44.9] 
- std: 	 [0.5849 0.     1.7928 3.6018] 
+ mean: 	 [93.9  0.   6.7 57.5] 
+ std: 	 [1.2502 0.     1.7928 4.48  ] 
 
 Classwise Precision: 
- mean: 	 [89.3  0.  10.1 46.6] 
- std: 	 [0.6313 0.     2.3266 1.7067] 
+ mean: 	 [90.3  0.  34.7 55.4] 
+ std: 	 [ 0.6231  0.     14.2672  3.1679] 
 
 Classwise F1-Score: 
- mean: 	 [90.7  0.   7.6 45.7] 
- std: 	 [0.3233 0.     1.9655 2.5278] 
-
-
-
-Model: EfficientNet B4 and Method: pretrained_simsiam with schedule: lr_0.01 
-Accuracy: 
- mean: 	 82.19999694824219 
- std: 	 1.43149995803833 
-
-Classwise Recall: 
- mean: 	 [93.6  1.6  6.8 38.2] 
- std: 	 [ 3.4948  3.6743  6.6841 14.5091] 
-
-Classwise Precision: 
- mean: 	 [88.   1.7  8.8 50.2] 
- std: 	 [ 2.3302  4.1533  7.9191 15.5708] 
-
-Classwise F1-Score: 
- mean: 	 [90.6  1.5  7.5 40.8] 
- std: 	 [ 0.7752  3.1637  7.0573 12.7565] 
-
-
-
-Model: EfficientNet B4 and Method: pretrained_simsiam with schedule: lr_0.001 
-Accuracy: 
- mean: 	 82.4000015258789 
- std: 	 1.63510000705719 
-
-Classwise Recall: 
- mean: 	 [93.   0.   5.6 44. ] 
- std: 	 [2.5986 0.     6.8399 5.7565] 
-
-Classwise Precision: 
- mean: 	 [88.1  0.   9.8 48.9] 
- std: 	 [ 1.1401  0.     11.4468  4.6187] 
-
-Classwise F1-Score: 
- mean: 	 [90.5  0.   6.8 46. ] 
- std: 	 [0.9532 0.     7.9257 3.5919] 
-
-
-
-Model: EfficientNet B4 and Method: pretrained_simsiam with schedule: lr_decr 
-Accuracy: 
- mean: 	 83.5 
- std: 	 1.8049999475479126 
-
-Classwise Recall: 
- mean: 	 [94.   0.   3.1 46.9] 
- std: 	 [2.0922 0.     3.3894 4.7954] 
-
-Classwise Precision: 
- mean: 	 [88.9  0.   5.  52.7] 
- std: 	 [0.7274 0.     5.4015 6.6795] 
-
-Classwise F1-Score: 
- mean: 	 [91.4  0.   3.8 49.4] 
- std: 	 [0.7801 0.     4.1255 4.5107] 
-
-
-
-Model: Swin Transformer and Method: pretrained_moco with schedule: lr_0.01 
-Accuracy: 
- mean: 	 82.0999984741211 
- std: 	 2.3343000411987305 
-
-Classwise Recall: 
- mean: 	 [90.6  0.7 10.8 54.9] 
- std: 	 [ 4.3918  2.2588  6.2574 10.4848] 
-
-Classwise Precision: 
- mean: 	 [89.9  2.  17.2 51.4] 
- std: 	 [1.3016 6.3246 5.8116 7.4979] 
-
-Classwise F1-Score: 
- mean: 	 [90.2  1.1 12.9 51.8] 
- std: 	 [1.6556 3.3287 6.2312 3.1436] 
-
-
-
-Model: Swin Transformer and Method: pretrained_moco with schedule: lr_0.001 
-Accuracy: 
- mean: 	 84.69999694824219 
- std: 	 0.8826000094413757 
-
-Classwise Recall: 
- mean: 	 [93.4  0.7 20.3 55.1] 
- std: 	 [ 2.4912  2.2588 10.1454  8.469 ] 
-
-Classwise Precision: 
- mean: 	 [90.5  2.  26.1 60.3] 
- std: 	 [1.592  6.3246 5.4809 4.6666] 
-
-Classwise F1-Score: 
- mean: 	 [91.9  1.1 21.5 56.9] 
- std: 	 [0.469  3.3287 7.645  2.9162] 
-
-
-
-Model: Swin Transformer and Method: pretrained_moco with schedule: lr_decr 
-Accuracy: 
- mean: 	 84.0999984741211 
- std: 	 0.4512999951839447 
-
-Classwise Recall: 
- mean: 	 [93.2  0.  17.2 52.7] 
- std: 	 [0.9265 0.     4.3665 2.9273] 
-
-Classwise Precision: 
- mean: 	 [89.6  0.  30.8 56.2] 
- std: 	 [0.3618 0.     3.5303 2.4942] 
-
-Classwise F1-Score: 
- mean: 	 [91.4  0.  21.9 54.2] 
- std: 	 [0.3034 0.     4.294  0.7315] 
-
-
-
-Model: Swin Transformer and Method: pretrained_simsiam with schedule: lr_0.01 
-Accuracy: 
- mean: 	 81.69999694824219 
- std: 	 1.8565000295639038 
-
-Classwise Recall: 
- mean: 	 [93.9  0.4  5.4 33.7] 
- std: 	 [ 5.3222  1.5972  7.0048 25.42  ] 
-
-Classwise Precision: 
- mean: 	 [86.7  1.   8.6 39.6] 
- std: 	 [ 3.5963  4.4721  9.6908 18.9421] 
-
-Classwise F1-Score: 
- mean: 	 [90.   0.5  6.5 33.2] 
- std: 	 [ 1.3022  2.3538  7.899  21.7044] 
-
-
-
-Model: Swin Transformer and Method: pretrained_simsiam with schedule: lr_0.001 
-Accuracy: 
- mean: 	 83.69999694824219 
- std: 	 1.257599949836731 
-
-Classwise Recall: 
- mean: 	 [94.9  0.4 10.1 41.1] 
- std: 	 [ 2.8632  1.5972 12.5194 18.1832] 
-
-Classwise Precision: 
- mean: 	 [88.   1.  13.1 55.3] 
- std: 	 [ 3.0371  4.4721 13.9309  6.7922] 
-
-Classwise F1-Score: 
- mean: 	 [91.2  0.5 10.8 45. ] 
- std: 	 [ 0.7888  2.3538 12.2357 14.3   ] 
-
-
-
-Model: Swin Transformer and Method: pretrained_simsiam with schedule: lr_decr 
-Accuracy: 
- mean: 	 83.69999694824219 
- std: 	 0.6281999945640564 
-
-Classwise Recall: 
- mean: 	 [94.5  0.   8.6 43.9] 
- std: 	 [ 1.6567  0.      9.3112 10.2682] 
-
-Classwise Precision: 
- mean: 	 [88.2  0.  15.4 52.9] 
- std: 	 [ 1.5617  0.     15.9712  4.0891] 
-
-Classwise F1-Score: 
- mean: 	 [91.2  0.  10.9 47.4] 
- std: 	 [ 0.3321  0.     11.6142  7.651 ] 
+ mean: 	 [92.1  0.  10.9 56.3] 
+ std: 	 [0.3853 0.     2.3538 1.3787] 
 
