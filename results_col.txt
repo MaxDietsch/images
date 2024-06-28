@@ -1,173 +1,174 @@
 
 
-Model: EfficientNet-B4 and Method: col with schedule: lr_0.01 
+
+Model: EfficientNet B4 and Method: col with schedule: lr_0.01 
 Accuracy: 
- mean: 	 84.08719635009766 
- std: 	 1.0987999439239502 
+ mean: 	 83.9000015258789 
+ std: 	 1.2023999691009521 
 
 Classwise Recall: 
- mean: 	 [93.4636  4.0476 20.9402 49.697 ] 
- std: 	 [1.8669 6.6804 9.7367 7.7936] 
+ mean: 	 [93.5  1.4 21.5 48.2] 
+ std: 	 [1.7302 3.0117 9.9821 6.4631] 
 
 Classwise Precision: 
- mean: 	 [90.1296  5.5208 24.2632 58.3511] 
- std: 	 [0.9574 7.8049 6.3587 4.4126] 
+ mean: 	 [90.   2.7 22.7 57.1] 
+ std: 	 [0.4816 5.8373 5.5437 3.9493] 
 
 Classwise F1-Score: 
- mean: 	 [91.7487  4.3682 21.2626 53.1998] 
- std: 	 [0.7007 6.3069 6.8779 4.2185] 
+ mean: 	 [91.7  1.8 21.1 52. ] 
+ std: 	 [0.7953 3.8849 6.5553 3.7644] 
 
 
 
-Model: EfficientNet-B4 and Method: col with schedule: lr_0.001 
+Model: EfficientNet B4 and Method: col with schedule: lr_0.001 
 Accuracy: 
- mean: 	 83.31600189208984 
- std: 	 1.1420999765396118 
+ mean: 	 83.0 
+ std: 	 1.195199966430664 
 
 Classwise Recall: 
- mean: 	 [92.478   2.1429 18.1197 50.8658] 
- std: 	 [2.1872 4.2569 6.3857 7.2396] 
+ mean: 	 [91.8  2.1 17.4 52.6] 
+ std: 	 [2.3996 4.8211 6.2574 8.064 ] 
 
 Classwise Precision: 
- mean: 	 [89.9906  7.6481 20.7157 55.9222] 
- std: 	 [ 0.9016 19.9753  3.5746  5.269 ] 
+ mean: 	 [90.2  4.7 19.8 54.3] 
+ std: 	 [ 0.9557 10.9093  3.6943  5.4983] 
 
 Classwise F1-Score: 
- mean: 	 [91.195   2.8085 18.8862 52.626 ] 
- std: 	 [0.7957 5.2441 4.3754 2.6144] 
+ mean: 	 [91.   2.6 18.2 52.7] 
+ std: 	 [0.8761 5.4092 4.3397 2.8517] 
 
 
 
-Model: EfficientNet-B4 and Method: col with schedule: lr_decr 
+Model: EfficientNet B4 and Method: col with schedule: lr_decr 
 Accuracy: 
- mean: 	 84.33280181884766 
- std: 	 0.4977000057697296 
+ mean: 	 84.0 
+ std: 	 0.19609999656677246 
 
 Classwise Recall: 
- mean: 	 [93.5692  0.     16.1538 52.4675] 
- std: 	 [0.5898 0.     5.1348 3.1323] 
+ mean: 	 [93.5  0.  13.6 51.1] 
+ std: 	 [0.5029 0.     1.2386 2.5983] 
 
 Classwise Precision: 
- mean: 	 [90.0766  0.     22.7291 56.8883] 
- std: 	 [0.5492 0.     3.3691 2.2312] 
+ mean: 	 [89.8  0.  20.9 55.6] 
+ std: 	 [0.3021 0.     2.0776 1.0298] 
 
 Classwise F1-Score: 
- mean: 	 [91.7874  0.     18.6512 54.5426] 
- std: 	 [0.3201 0.     3.9316 2.2555] 
+ mean: 	 [91.6  0.  16.4 53.2] 
+ std: 	 [0.139  0.     1.2316 1.3163] 
 
 
 
-Model: EfficientNet-B4 and Method: col_100 with schedule: lr_0.01 
+Model: EfficientNet B4 and Method: col_45 with schedule: lr_0.01 
 Accuracy: 
- mean: 	 84.34839630126953 
- std: 	 1.007099986076355 
+ mean: 	 83.5999984741211 
+ std: 	 1.3273999691009521 
 
 Classwise Recall: 
- mean: 	 [93.6325  3.2857 18.7179 51.2468] 
- std: 	 [1.7018 5.628  8.4368 7.1457] 
+ mean: 	 [93.1  2.1 21.  48.8] 
+ std: 	 [1.8527 4.0803 9.0979 5.8684] 
 
 Classwise Precision: 
- mean: 	 [90.0991  5.4535 27.0362 58.3477] 
- std: 	 [0.9154 8.8606 7.2006 3.815 ] 
+ mean: 	 [90.   4.5 22.1 57. ] 
+ std: 	 [ 0.8173 11.6478  4.886   4.4197] 
 
 Classwise F1-Score: 
- mean: 	 [91.8162  3.7514 20.7455 54.1653] 
- std: 	 [0.6091 5.6679 5.9615 3.7874] 
+ mean: 	 [91.5  2.4 20.9 52.2] 
+ std: 	 [0.9158 4.4148 6.033  3.4739] 
 
 
 
-Model: EfficientNet-B4 and Method: col_100 with schedule: lr_0.001 
+Model: EfficientNet B4 and Method: col_45 with schedule: lr_0.001 
 Accuracy: 
- mean: 	 83.27210235595703 
- std: 	 0.9408000111579895 
+ mean: 	 83.4000015258789 
+ std: 	 1.1978000402450562 
 
 Classwise Recall: 
- mean: 	 [93.0665  1.5714 16.2051 47.4546] 
- std: 	 [1.9541 3.6192 6.139  7.2651] 
+ mean: 	 [92.5  2.1 16.4 51.9] 
+ std: 	 [1.985  4.0803 8.2941 6.404 ] 
 
 Classwise Precision: 
- mean: 	 [89.25    5.2556 21.0674 56.2678] 
- std: 	 [ 1.1853 15.9724  4.1581  4.3664] 
+ mean: 	 [90.3  5.3 21.2 54.4] 
+ std: 	 [ 0.7074 10.0525  4.8399  4.1592] 
 
 Classwise F1-Score: 
- mean: 	 [91.0954  2.0851 17.8545 50.9226] 
- std: 	 [0.6625 4.5553 4.5592 3.0675] 
+ mean: 	 [91.4  2.9 17.6 52.7] 
+ std: 	 [0.7842 5.1188 4.6613 2.9298] 
 
 
 
-Model: EfficientNet-B4 and Method: col_100 with schedule: lr_decr 
+Model: EfficientNet B4 and Method: col_45 with schedule: lr_decr 
 Accuracy: 
- mean: 	 84.63780212402344 
- std: 	 0.5740000009536743 
+ mean: 	 84.80000305175781 
+ std: 	 0.8299999833106995 
 
 Classwise Recall: 
- mean: 	 [93.8057  0.     18.5128 52.7013] 
- std: 	 [0.8444 0.     5.2902 3.9495] 
+ mean: 	 [93.7  0.  16.  55.2] 
+ std: 	 [0.5355 0.     3.3146 4.68  ] 
 
 Classwise Precision: 
- mean: 	 [90.2026  0.     28.0355 57.1783] 
- std: 	 [0.5964 0.     7.4554 2.2533] 
+ mean: 	 [90.3  0.  28.2 57.9] 
+ std: 	 [0.6258 0.     8.119  2.9043] 
 
 Classwise F1-Score: 
- mean: 	 [91.9647  0.     22.0409 54.7371] 
- std: 	 [0.3555 0.     5.4576 2.1193] 
+ mean: 	 [92.   0.  20.3 56.5] 
+ std: 	 [0.3991 0.     4.601  3.5439] 
 
 
 
-Model: EfficientNet-B4 and Method: col_45 with schedule: lr_0.01 
+Model: EfficientNet B4 and Method: col_100 with schedule: lr_0.01 
 Accuracy: 
- mean: 	 84.06410217285156 
- std: 	 1.2151000499725342 
+ mean: 	 84.0 
+ std: 	 1.2675000429153442 
 
 Classwise Recall: 
- mean: 	 [93.355   3.1633 19.2308 50.705 ] 
- std: 	 [1.8064 5.3887 8.4056 6.6989] 
+ mean: 	 [93.3  2.1 19.1 50.4] 
+ std: 	 [1.7516 3.8213 8.2397 6.1264] 
 
 Classwise Precision: 
- mean: 	 [90.0568  5.7103 25.4526 57.9246] 
- std: 	 [ 0.9519 10.9445  6.9353  4.1796] 
+ mean: 	 [90.   4.8 25.1 57.4] 
+ std: 	 [ 0.8289 11.1765  6.9502  3.972 ] 
 
 Classwise F1-Score: 
- mean: 	 [91.6606  3.5098 20.7013 53.6962] 
- std: 	 [0.7702 5.4398 5.8341 3.6942] 
+ mean: 	 [91.6  2.5 20.6 53.4] 
+ std: 	 [0.808  4.4246 5.4822 3.5415] 
 
 
 
-Model: EfficientNet-B4 and Method: col_45 with schedule: lr_0.001 
+Model: EfficientNet B4 and Method: col_100 with schedule: lr_0.001 
 Accuracy: 
- mean: 	 83.44889831542969 
- std: 	 0.9991999864578247 
+ mean: 	 83.4000015258789 
+ std: 	 1.0217000246047974 
 
 Classwise Recall: 
- mean: 	 [93.1106  1.7347 15.9707 48.5529] 
- std: 	 [1.7566 3.532  7.346  6.7764] 
+ mean: 	 [93.   1.7 15.4 48.7] 
+ std: 	 [1.8571 3.6    7.3456 7.1722] 
 
 Classwise Precision: 
- mean: 	 [89.5574  5.4683 21.5179 55.7429] 
- std: 	 [ 1.128  14.3399  4.5793  3.9845] 
+ mean: 	 [89.6  4.1 21.3 55.2] 
+ std: 	 [1.1986 8.8271 4.8412 3.8408] 
 
 Classwise F1-Score: 
- mean: 	 [91.281   2.3916 17.615  51.4396] 
- std: 	 [0.6697 4.6603 4.6646 3.1569] 
+ mean: 	 [91.2  2.2 17.2 51.3] 
+ std: 	 [0.6946 4.5894 4.6082 3.283 ] 
 
 
 
-Model: EfficientNet-B4 and Method: col_45 with schedule: lr_decr 
+Model: EfficientNet B4 and Method: col_100 with schedule: lr_decr 
 Accuracy: 
- mean: 	 84.89730072021484 
- std: 	 0.6639000177383423 
+ mean: 	 84.9000015258789 
+ std: 	 0.7121999859809875 
 
 Classwise Recall: 
- mean: 	 [93.8135  0.     18.4982 54.6011] 
- std: 	 [0.7647 0.     4.6995 4.5471] 
+ mean: 	 [93.8  0.  18.  54.5] 
+ std: 	 [0.7727 0.     4.337  4.8621] 
 
 Classwise Precision: 
- mean: 	 [90.3854  0.     30.1829 58.0706] 
- std: 	 [0.5987 0.     7.437  2.5988] 
+ mean: 	 [90.3  0.  30.8 57.8] 
+ std: 	 [0.6227 0.     7.8679 2.6911] 
 
 Classwise F1-Score: 
- mean: 	 [92.0639  0.     22.6609 56.18  ] 
- std: 	 [0.3525 0.     4.9615 2.9412] 
+ mean: 	 [92.   0.  22.6 56. ] 
+ std: 	 [0.3694 0.     5.205  3.1503] 
 
 
 
