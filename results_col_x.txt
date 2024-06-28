@@ -1,0 +1,171 @@
+
+
+Model: EfficientNet B4 and Method: col with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 83.9000015258789 
+ std: 	 1.2023999691009521 
+
+Classwise Recall: 
+ mean: 	 [93.5  1.4 21.5 48.2] 
+ std: 	 [1.7302 3.0117 9.9821 6.4631] 
+
+Classwise Precision: 
+ mean: 	 [90.   2.7 22.7 57.1] 
+ std: 	 [0.4816 5.8373 5.5437 3.9493] 
+
+Classwise F1-Score: 
+ mean: 	 [91.7  1.8 21.1 52. ] 
+ std: 	 [0.7953 3.8849 6.5553 3.7644] 
+
+
+
+Model: EfficientNet B4 and Method: col with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 83.0 
+ std: 	 1.195199966430664 
+
+Classwise Recall: 
+ mean: 	 [91.8  2.1 17.4 52.6] 
+ std: 	 [2.3996 4.8211 6.2574 8.064 ] 
+
+Classwise Precision: 
+ mean: 	 [90.2  4.7 19.8 54.3] 
+ std: 	 [ 0.9557 10.9093  3.6943  5.4983] 
+
+Classwise F1-Score: 
+ mean: 	 [91.   2.6 18.2 52.7] 
+ std: 	 [0.8761 5.4092 4.3397 2.8517] 
+
+
+
+Model: EfficientNet B4 and Method: col with schedule: lr_decr 
+Accuracy: 
+ mean: 	 84.0 
+ std: 	 0.19609999656677246 
+
+Classwise Recall: 
+ mean: 	 [93.5  0.  13.6 51.1] 
+ std: 	 [0.5029 0.     1.2386 2.5983] 
+
+Classwise Precision: 
+ mean: 	 [89.8  0.  20.9 55.6] 
+ std: 	 [0.3021 0.     2.0776 1.0298] 
+
+Classwise F1-Score: 
+ mean: 	 [91.6  0.  16.4 53.2] 
+ std: 	 [0.139  0.     1.2316 1.3163] 
+
+
+
+Model: EfficientNet B4 and Method: col_45 with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 83.5999984741211 
+ std: 	 1.3273999691009521 
+
+Classwise Recall: 
+ mean: 	 [93.1  2.1 21.  48.8] 
+ std: 	 [1.8527 4.0803 9.0979 5.8684] 
+
+Classwise Precision: 
+ mean: 	 [90.   4.5 22.1 57. ] 
+ std: 	 [ 0.8173 11.6478  4.886   4.4197] 
+
+Classwise F1-Score: 
+ mean: 	 [91.5  2.4 20.9 52.2] 
+ std: 	 [0.9158 4.4148 6.033  3.4739] 
+
+
+
+Model: EfficientNet B4 and Method: col_45 with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 83.4000015258789 
+ std: 	 1.1978000402450562 
+
+Classwise Recall: 
+ mean: 	 [92.5  2.1 16.4 51.9] 
+ std: 	 [1.985  4.0803 8.2941 6.404 ] 
+
+Classwise Precision: 
+ mean: 	 [90.3  5.3 21.2 54.4] 
+ std: 	 [ 0.7074 10.0525  4.8399  4.1592] 
+
+Classwise F1-Score: 
+ mean: 	 [91.4  2.9 17.6 52.7] 
+ std: 	 [0.7842 5.1188 4.6613 2.9298] 
+
+
+
+Model: EfficientNet B4 and Method: col_45 with schedule: lr_decr 
+Accuracy: 
+ mean: 	 84.80000305175781 
+ std: 	 0.8299999833106995 
+
+Classwise Recall: 
+ mean: 	 [93.7  0.  16.  55.2] 
+ std: 	 [0.5355 0.     3.3146 4.68  ] 
+
+Classwise Precision: 
+ mean: 	 [90.3  0.  28.2 57.9] 
+ std: 	 [0.6258 0.     8.119  2.9043] 
+
+Classwise F1-Score: 
+ mean: 	 [92.   0.  20.3 56.5] 
+ std: 	 [0.3991 0.     4.601  3.5439] 
+
+
+
+Model: EfficientNet B4 and Method: col_100 with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 84.0 
+ std: 	 1.2675000429153442 
+
+Classwise Recall: 
+ mean: 	 [93.3  2.1 19.1 50.4] 
+ std: 	 [1.7516 3.8213 8.2397 6.1264] 
+
+Classwise Precision: 
+ mean: 	 [90.   4.8 25.1 57.4] 
+ std: 	 [ 0.8289 11.1765  6.9502  3.972 ] 
+
+Classwise F1-Score: 
+ mean: 	 [91.6  2.5 20.6 53.4] 
+ std: 	 [0.808  4.4246 5.4822 3.5415] 
+
+
+
+Model: EfficientNet B4 and Method: col_100 with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 83.4000015258789 
+ std: 	 1.0217000246047974 
+
+Classwise Recall: 
+ mean: 	 [93.   1.7 15.4 48.7] 
+ std: 	 [1.8571 3.6    7.3456 7.1722] 
+
+Classwise Precision: 
+ mean: 	 [89.6  4.1 21.3 55.2] 
+ std: 	 [1.1986 8.8271 4.8412 3.8408] 
+
+Classwise F1-Score: 
+ mean: 	 [91.2  2.2 17.2 51.3] 
+ std: 	 [0.6946 4.5894 4.6082 3.283 ] 
+
+
+
+Model: EfficientNet B4 and Method: col_100 with schedule: lr_decr 
+Accuracy: 
+ mean: 	 84.9000015258789 
+ std: 	 0.7121999859809875 
+
+Classwise Recall: 
+ mean: 	 [93.8  0.  18.  54.5] 
+ std: 	 [0.7727 0.     4.337  4.8621] 
+
+Classwise Precision: 
+ mean: 	 [90.3  0.  30.8 57.8] 
+ std: 	 [0.6227 0.     7.8679 2.6911] 
+
+Classwise F1-Score: 
+ mean: 	 [92.   0.  22.6 56. ] 
+ std: 	 [0.3694 0.     5.205  3.1503] 
+
