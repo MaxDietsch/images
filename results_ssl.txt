@@ -283,3 +283,60 @@ Classwise F1-Score:
  mean: 	 [91.5  0.  10.9 50.4] 
  std: 	 [0.5463 0.     9.492  7.5371] 
 
+
+
+Model: EfficientNet B4 and Method: pretrained_relative_loc with schedule: lr_0.01 
+Accuracy: 
+ mean: 	 82.5999984741211 
+ std: 	 1.739300012588501 
+
+Classwise Recall: 
+ mean: 	 [92.9  1.4  9.  45.3] 
+ std: 	 [2.9943 3.0117 4.3998 6.7347] 
+
+Classwise Precision: 
+ mean: 	 [89.1  5.8 15.8 52.8] 
+ std: 	 [ 0.8685 15.738   6.2411  6.9299] 
+
+Classwise F1-Score: 
+ mean: 	 [90.9  2.  11.2 48. ] 
+ std: 	 [1.1935 4.4052 4.8646 2.3926] 
+
+
+
+Model: EfficientNet B4 and Method: pretrained_relative_loc with schedule: lr_0.001 
+Accuracy: 
+ mean: 	 82.30000305175781 
+ std: 	 1.3803000450134277 
+
+Classwise Recall: 
+ mean: 	 [91.   3.6  9.5 54.5] 
+ std: 	 [ 3.6488  3.7646  7.456  12.3905] 
+
+Classwise Precision: 
+ mean: 	 [89.9 12.2 19.9 49.8] 
+ std: 	 [ 1.9867 16.3373  9.2199  5.3773] 
+
+Classwise F1-Score: 
+ mean: 	 [90.4  5.3 11.5 50.7] 
+ std: 	 [0.8454 5.633  7.0186 5.1275] 
+
+
+
+Model: EfficientNet B4 and Method: pretrained_relative_loc with schedule: lr_decr 
+Accuracy: 
+ mean: 	 83.5999984741211 
+ std: 	 0.322299987077713 
+
+Classwise Recall: 
+ mean: 	 [93.1  0.7  6.7 52.2] 
+ std: 	 [0.6437 2.2588 4.3915 1.4094] 
+
+Classwise Precision: 
+ mean: 	 [89.5  2.  15.8 53. ] 
+ std: 	 [0.3205 6.3246 4.6016 1.8188] 
+
+Classwise F1-Score: 
+ mean: 	 [91.3  1.1  9.  52.6] 
+ std: 	 [0.2088 3.3287 4.7213 1.0022] 
+
